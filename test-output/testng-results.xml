@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+    <line>
+      <![CDATA[Test Script Passed: Register account page is display.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-29T14:29:56 IST" name="Default suite" finished-at="2023-09-29T14:30:29 IST" duration-ms="32926">
+    <groups>
+    </groups>
+    <test started-at="2023-09-29T14:29:56 IST" name="Default test" finished-at="2023-09-29T14:30:29 IST" duration-ms="32926">
+      <class name="UserModules.RegisterUser.RegisterMultipleUserTest">
+        <test-method is-config="true" signature="BSConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:29:56 IST" name="BSConfig" finished-at="2023-09-29T14:29:56 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BSConfig -->
+        <test-method is-config="true" signature="BCConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:29:56 IST" name="BCConfig" finished-at="2023-09-29T14:30:00 IST" duration-ms="4355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BCConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:01 IST" name="BMConfig" finished-at="2023-09-29T14:30:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:01 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:05 IST" duration-ms="3194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sparrow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jack.sparrow@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BlackPearl123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:05 IST" name="AMConfig" finished-at="2023-09-29T14:30:05 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:05 IST" name="BMConfig" finished-at="2023-09-29T14:30:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:05 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:08 IST" duration-ms="2678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hector]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Barbossa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hector.barbossa@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CursedGold987]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:08 IST" name="AMConfig" finished-at="2023-09-29T14:30:09 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:09 IST" name="BMConfig" finished-at="2023-09-29T14:30:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:09 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:12 IST" duration-ms="2817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sao]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Feng]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sao.feng@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DragonSea456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:12 IST" name="AMConfig" finished-at="2023-09-29T14:30:12 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:12 IST" name="BMConfig" finished-at="2023-09-29T14:30:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:12 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:15 IST" duration-ms="2820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Elizabeth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Swann]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[elizabeth.swann@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PirateKing789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:15 IST" name="AMConfig" finished-at="2023-09-29T14:30:15 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:15 IST" name="BMConfig" finished-at="2023-09-29T14:30:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:15 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:18 IST" duration-ms="2918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Teague]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sparrow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[teague.sparrow@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CodeKeeper321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:18 IST" name="AMConfig" finished-at="2023-09-29T14:30:19 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:19 IST" name="BMConfig" finished-at="2023-09-29T14:30:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:19 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:21 IST" duration-ms="2771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ammand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The Corsair]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ammand.corsair@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BlackSea111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:21 IST" name="AMConfig" finished-at="2023-09-29T14:30:22 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:22 IST" name="BMConfig" finished-at="2023-09-29T14:30:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:22 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:25 IST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chevalle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The Penniless]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chevalle.penniless@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MedSea222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:25 IST" name="AMConfig" finished-at="2023-09-29T14:30:25 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="BMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:25 IST" name="BMConfig" finished-at="2023-09-29T14:30:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMConfig -->
+        <test-method signature="registerAsUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:25 IST" name="registerAsUserTest" data-provider="getData" finished-at="2023-09-29T14:30:28 IST" duration-ms="2525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gentleman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jocard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gentleman.jocard@pirate.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AtlanticOcean333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Script Passed: Register account page is display.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerAsUserTest -->
+        <test-method is-config="true" signature="AMConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:28 IST" name="AMConfig" finished-at="2023-09-29T14:30:28 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMConfig -->
+        <test-method is-config="true" signature="ACConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:28 IST" name="ACConfig" finished-at="2023-09-29T14:30:29 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACConfig -->
+        <test-method is-config="true" signature="ASConfig()[pri:0, instance:UserModules.RegisterUser.RegisterMultipleUserTest@1750fbeb]" started-at="2023-09-29T14:30:29 IST" name="ASConfig" finished-at="2023-09-29T14:30:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASConfig -->
+      </class> <!-- UserModules.RegisterUser.RegisterMultipleUserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
