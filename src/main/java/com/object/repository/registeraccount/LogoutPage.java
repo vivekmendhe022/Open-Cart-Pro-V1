@@ -31,4 +31,11 @@ public class LogoutPage {
 		MyAccountDropDownList.click();
 		LogoutLinkText.click();
 	}
+
+	public void logout(WebDriver d) {
+		LogoutPage lp = new LogoutPage(d);
+		lp.clickOnLogoutLinkText();
+		System.out.println("Logout successful");
+	}
+
 }

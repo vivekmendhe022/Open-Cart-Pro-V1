@@ -15,13 +15,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.object.repository.HomePage;
+import com.object.repository.login.UserLoginPage;
 import com.object.repository.registeraccount.LogoutPage;
 
 public class BaseClass_User {
 
 	public PropertyFileUtility putil = new PropertyFileUtility();
-	public JavaUtility jutil=new JavaUtility();
-	public ExcelFileUtility eutil=new ExcelFileUtility();
+	public JavaUtility jutil = new JavaUtility();
+	public ExcelFileUtility eutil = new ExcelFileUtility();
 	public WebDriver d = null;
 
 	@BeforeSuite
@@ -55,20 +56,26 @@ public class BaseClass_User {
 
 		d.manage().window().maximize();
 		d.get(URL);
-		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 
 	}
 
 	@BeforeMethod
-	public void BMConfig() {
+	public void BMConfig() throws IOException, InterruptedException {
 		// Login to an application
+		String EMAIL = putil.readDataFromPropertyFile("user_email");
+		String Password = putil.readDataFromPropertyFile("user_passowrd");
+		UserLoginPage ulp = new UserLoginPage(d);
+		ulp.userLogin(d, EMAIL, Password);
+		System.out.println("Login Success Full");
+		Thread.sleep(3000);
 	}
 
 	@AfterMethod
-	public void AMConfig() {
-		LogoutPage lp=new LogoutPage(d);
-		lp.clickOnLogoutLinkText();
-		
+	public void AMConfig() throws InterruptedException {
+		Thread.sleep(3000);
+		LogoutPage lp = new LogoutPage(d);
+		lp.logout(d);
 	}
 
 	@AfterClass

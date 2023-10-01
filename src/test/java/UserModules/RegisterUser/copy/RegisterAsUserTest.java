@@ -1,4 +1,4 @@
-package UserModules.RegisterUser;
+package UserModules.RegisterUser.copy;
 
 import org.testng.Assert;
 import org.testng.Reporter;
