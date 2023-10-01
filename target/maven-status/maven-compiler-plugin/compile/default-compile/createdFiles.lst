@@ -1,12 +1,14 @@
-com\object\repository\registeraccount\AccountCreatedInfoPage.class
 com\generic\utility\BaseClass_User.class
 com\generic\utility\PropertyFileUtility.class
+com\object\repository\HomePage.class
+com\object\repository\UserHomePage.class
+com\generic\utility\IConstantUtility.class
+com\object\repository\registeraccount\AccountCreatedInfoPage.class
 com\generic\utility\WebDriverUtility.class
 com\object\repository\registeraccount\RegisterAccountPage.class
-com\object\repository\HomePage.class
 com\generic\utility\ExcelFileUtility.class
-com\generic\utility\IConstantUtility.class
 com\generic\utility\ITestListenersUtility.class
 com\generic\utility\JavaUtility.class
 com\generic\utility\IRetryAnalyserUtility.class
+com\object\repository\login\UserLoginPage.class
 com\object\repository\registeraccount\LogoutPage.class

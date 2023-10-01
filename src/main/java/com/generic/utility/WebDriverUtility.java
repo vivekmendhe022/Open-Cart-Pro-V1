@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -38,4 +39,28 @@ public class WebDriverUtility {
 		WebDriverWait wait = new WebDriverWait(d, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
+
+	/**
+	 * This element handle drop down using action class, its hover on particular web
+	 * element.
+	 * 
+	 * @param d
+	 * @param element
+	 */
+	public void handleDropDown(WebDriver d, WebElement element) {
+		Actions actions = new Actions(d);
+		actions.moveToElement(element).perform();
+		;
+	}
+
+	/**
+	 * This method will click on element using javascript inteface.
+	 * @param d
+	 * @param element
+	 */
+	public void jsClickOnElement(WebDriver d, WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) d;
+		js.executeScript("arguments[0].click();", element);
+	}
+
 }

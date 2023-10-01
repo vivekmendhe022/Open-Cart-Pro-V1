@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="UserModules.RegisterUser.RegisterMultipleUserTest">
+      <class name="UserModuleBrowseProducts.NavigateCategoriesTest">
         <methods>
           <include name="AMConfig"/>
           <include name="BMConfig"/>
           <include name="BSConfig"/>
           <include name="ACConfig"/>
-          <include name="registerAsUserTest"/>
+          <include name="navigateToComponentsWebCameras"/>
           <include name="ASConfig"/>
           <include name="BCConfig"/>
         </methods>
-      </class> <!-- UserModules.RegisterUser.RegisterMultipleUserTest -->
+      </class> <!-- UserModuleBrowseProducts.NavigateCategoriesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
