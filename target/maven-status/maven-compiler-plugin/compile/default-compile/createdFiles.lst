@@ -1,4 +1,6 @@
+com\object\repository\products\SearchProductPage.class
 com\generic\utility\BaseClass_User.class
+com\object\repository\products\ProductDetailPage.class
 com\generic\utility\PropertyFileUtility.class
 com\object\repository\HomePage.class
 com\object\repository\UserHomePage.class
