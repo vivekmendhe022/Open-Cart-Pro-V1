@@ -6,23 +6,23 @@ Here's an end-to-end testing scenario for a user on the OpenCart e-commerce plat
 OpenCart User End-to-End Testing Scenario:
 
 1. Landing Page:
-    - Open the OpenCart website.
-    - Ensure the landing page loads correctly with headers, footers, product listings, and any promotional banners.
+    - Open the OpenCart website. ✅
+    - Ensure the landing page loads correctly with headers, footers, product listings, and any promotional banners. ✅
 
 2. Registration:
-    - Navigate to the registration page.
-    - Enter the necessary user details.
-    - Submit the registration form and verify successful account creation.
+    - Navigate to the registration page. ✅
+    - Enter the necessary user details. ✅
+    - Submit the registration form and verify successful account creation. ✅
 
 3. Login:
-    - Navigate to the login page.
-    - Enter registered user details and log in.
-    - Ensure the user dashboard or the account page is correctly displayed.
+    - Navigate to the login page. ✅
+    - Enter registered user details and log in. ✅
+    - Ensure the user dashboard or the account page is correctly displayed. ✅
 
 4. Browse Products:
-    - Navigate through different product categories.
-    - View a product detail page.
-    - Check for product images, descriptions, prices, and add to cart option.
+    - Navigate through different product categories. ✅
+    - View a product detail page. ✅
+    - Check for product images, descriptions, prices, and add to cart option. 
 
 5. Add to Cart:
     - Choose a product and add it to the cart.
