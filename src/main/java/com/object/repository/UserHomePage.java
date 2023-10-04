@@ -23,6 +23,13 @@ public class UserHomePage extends WebDriverUtility {
 	@FindBy(xpath = "//img[@title='Your Store']")
 	private WebElement HomeLookUpIcon;
 
+	// Search bar
+	@FindBy(name = "search")
+	private WebElement SearchBar;
+
+	@FindBy(xpath = "//button[@class='btn btn-light btn-lg']")
+	private WebElement SearchButton;
+
 	// navigate to navbar links
 	// Dekstops
 	@FindBy(xpath = "//a[normalize-space()='Desktops']")
@@ -223,5 +230,15 @@ public class UserHomePage extends WebDriverUtility {
 	// method on navigate to mp3 players
 	public void navigateToMP3Players() {
 		MP3PlayersLinkText.click();
+	}
+
+	/**
+	 * This method will search the product in application.
+	 * 
+	 * @param PRODUCTNAME
+	 */
+	public void searchProduct(String PRODUCTNAME) {
+		SearchBar.sendKeys(PRODUCTNAME);
+		SearchButton.click();
 	}
 }

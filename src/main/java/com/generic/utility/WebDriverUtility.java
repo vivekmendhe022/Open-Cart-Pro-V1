@@ -2,6 +2,7 @@ package com.generic.utility;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -55,12 +56,25 @@ public class WebDriverUtility {
 
 	/**
 	 * This method will click on element using javascript inteface.
+	 * 
 	 * @param d
 	 * @param element
 	 */
 	public void jsClickOnElement(WebDriver d, WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor) d;
 		js.executeScript("arguments[0].click();", element);
+	}
+
+	/**
+	 * This method will wait if there's an overlay (like a modal or a loading
+	 * spinner), wait for it to disappear before clicking the element.
+	 * 
+	 * @param d
+	 * @param element
+	 */
+	public void waitForOverlaysToDisappear(WebDriver d, WebElement element) {
+		WebDriverWait wait = new WebDriverWait(d, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.invisibilityOfElementLocated((By) element));
 	}
 
 }

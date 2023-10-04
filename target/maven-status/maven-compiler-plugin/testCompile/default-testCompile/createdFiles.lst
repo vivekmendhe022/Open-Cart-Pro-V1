@@ -1,3 +1,4 @@
+UserModule\ProductDetailsPage\ProductDetailPageTest.class
 UserModules\RegisterUser\copy\RegisterAsUserTest.class
 UserModuleBrowseProducts\NavigateCategoriesTest.class
 UserModules\RegisterUser\copy\RegisterMultipleUserTest.class
